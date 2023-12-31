@@ -31,7 +31,8 @@ describe('Advent test suite 2023 - 01', () => {
 
     it('parses all lines in a file', () => {
       const lines = fs.readFileSync('./advent-of-code/2023/01/input.txt').toString().split('\n')
-      console.log(sumLinesNumbers(lines))
+
+      console.log(`Exercise 1 - Part One: The sum is ${sumLinesNumbers(lines)}`)
     })
   })
 
@@ -64,7 +65,8 @@ describe('Advent test suite 2023 - 01', () => {
 
     it('parses all lines in a file', () => {
       const lines = fs.readFileSync('./advent-of-code/2023/01/input.txt').toString().split('\n')
-      console.log(sumLinesNumbersDigitOrWord(lines))
+
+      console.log(`Exercise 1 - Part Two: The sum is ${sumLinesNumbersDigitOrWord(lines)}`)
     })
   })
 })
