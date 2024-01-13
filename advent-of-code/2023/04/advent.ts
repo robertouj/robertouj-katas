@@ -1,4 +1,3 @@
-import fs from 'node:fs'
 export const takeNumbersAndWinners = (line: string): { numbers: number[]; winners: number[] } => {
   if (line === '') return { numbers: [], winners: [] }
   const [winners, numbers] = line.split(': ')[1].split(' | ')
