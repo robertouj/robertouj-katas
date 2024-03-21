@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest'
 import { takeNumbersAndWinners, sumPointsFromLine, sumPoints, sumWinnersFromLine, sumScratchcards } from './advent'
 import fs from 'node:fs'
 
-describe('Advent test suite 2023 - 03', () => {
+describe('Advent test suite 2023 - 04', () => {
   const lines = [
     { text: 'Card 1: 41 48 83 86 17 | 83 86  6 31 17  9 48 53', points: 8, winners: 4 },
     { text: 'Card 2: 13 32 20 16 61 | 61 30 68 82 17 32 24 19', points: 2, winners: 2 },
